@@ -24,8 +24,8 @@ The post intends to serve as a useful resource for data scientists exploring alt
 
 # Resources
 
-  + [A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems](https://doi.org/10.1145/507533.507538)
-  + [Extending Target Encoding](https://towardsdatascience.com/extending-target-encoding-443aa9414cae)
+  + [A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems](https://doi.org/10.1145/507533.507538).
+  + [Extending Target Encoding](https://towardsdatascience.com/extending-target-encoding-443aa9414cae).
   + [Target encoding done the right way](https://maxhalford.github.io/blog/target-encoding/).
 
   
@@ -34,7 +34,7 @@ The post intends to serve as a useful resource for data scientists exploring alt
 
 This tutorial requires the development version (>= 1.0.3) of the newly released R package [`collinear`](https://blasbenito.github.io/collinear/), and a few more.
 
-```{r, eval = FALSE}
+```{r, eval = FALSE, message = FALSE, warning = FALSE}
 #required
 install.packages("remotes")
 remotes::install_github(
@@ -49,7 +49,7 @@ install.packages("dplyr")
 install.packages("ggplot2")
 ```
 
-```{r}
+```{r, message = FALSE, warning = FALSE}
 library(rpart)
 library(rpart.plot)
 library(collinear)
